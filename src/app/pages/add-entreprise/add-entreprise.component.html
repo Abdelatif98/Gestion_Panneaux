@@ -1,0 +1,27 @@
+<form class="back-inscription" [formGroup]="this.dataForm" (ngSubmit)="onSubmit()">
+  <div class="row">
+    <h5 class="mx-auto mb-2 inscription-text">Ajouter une nouvelle entreprise</h5>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-12">
+      <label for="patente">N° Patente</label>
+      <input type="text" class="form-control input1"  placeholder="Entrer N° de Patente" formControlName="patente" id="patente">
+      <div *ngIf="f.patente.touched && f.patente.invalid" class="alert alert-danger">
+        <div *ngIf="f.patente.errors.required">champ obligatoire</div>
+        <div *ngIf="f.patente.errors.minlength">3 caractères au moins</div>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-12">
+      <label for="nom">Nom entreprise</label>
+      <input type="text" class="form-control input1"  placeholder="Entrer le nom de l'entreprise" formControlName="nom" id="nom">
+      <div *ngIf="f.nom.touched && f.nom.invalid" class="alert alert-danger">
+        <div *ngIf="f.nom.errors.required">champ obligatoire</div>
+        <div *ngIf="f.nom.errors.minlength">3 caractères au moins</div>
+      </div>
+    </div>
+  </div>
+    <button class="btn  btn-block send my-1" type="submit" [disabled]="!this.dataForm.valid" mat-dialog-close>Valider</button>
+    <button class="btn  btn-block send my-3" mat-dialog-close>Anuller</button>
+</form>

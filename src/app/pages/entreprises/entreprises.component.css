@@ -1,0 +1,33 @@
+table{
+  width: 50%;
+  margin: 40px;
+}
+h3{
+  margin: 30px;
+}
+.myButton {
+  background:linear-gradient(to left,#5F4DEE, #460BA3) 0 0 no-repeat;
+
+  box-shadow:inset 0px 0px 0px 0px #3dc21b;
+  border-radius: 10px 100px / 120px;border:1px solid ;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:12px;
+  padding:20px 63px;
+  text-decoration:none;
+  margin-left: 55%;
+  margin-top: 10px;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+.myButton:hover {
+  background:white;
+  color: #5F4DEE;
+}
+hr{
+  width: fit-content;
+}

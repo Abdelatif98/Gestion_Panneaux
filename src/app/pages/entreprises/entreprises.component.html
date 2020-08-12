@@ -1,0 +1,24 @@
+<h3>Listes des entreprises: </h3>
+<table mdbTable striped="true">
+  <thead>
+  <tr>
+    <th *ngFor="let head of headElements" scope="col">{{head}} </th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr mdbTableCol *ngFor="let el of this.Entreprises">
+    <th scope="row">{{el.patente}}</th>
+    <td>{{el.nom}}</td>
+    <td>
+      <button mat-fab color="danger" aria-label="Example icon button with a delete icon" (click)="this.deleteEntreprise(el.id)" mat-icon-button>
+        <mat-icon aria-hidden="false">delete</mat-icon>
+      </button>
+    </td>
+  </tr>
+  </tbody>
+  <tfoot>
+  <br>
+  <button class="myButton" (click)="openDialog()">Ajouter Entreprise</button>
+  </tfoot>
+</table>
+

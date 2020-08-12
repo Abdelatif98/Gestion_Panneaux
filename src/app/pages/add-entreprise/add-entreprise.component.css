@@ -1,0 +1,70 @@
+.back-inscription{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.send{
+  background:linear-gradient(#5f4dee,#400799);
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+.send:hover{
+  background:white;
+  color:#5f4dee;
+  border-radius:0px;
+  border-bottom-right-radius: 40px;
+  border-top-left-radius: 40px;
+}
+.input1{
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.parent{
+  margin-top:50px;
+  margin-bottom: 10px;
+  background-color: #f3f7fd;
+
+}
+.inscription-text{
+  color:#5f4dee;
+}
+.fa-user-plus{
+  color: #5f4dee;
+}
+.icon{
+  color:#5f4dee;
+  padding:10px;
+  border-color: #5f4dee;
+  border-width:1px;
+  border-style: solid;
+  border-radius: 30px;
+}
+.face{
+  padding:10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-color:#5f4dee;
+  border-width:1px;
+  border-style: solid;
+  border-radius: 30px;
+}
+.icon:hover{
+  color:white;
+}
+.aside{
+  background-color: #f3f7fd;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: white;
+  font-family: Robototo;
+}
+
+
+.titre{
+  color: black;
+  font-family: Roboto, sans-serif;
+}
+.alert{
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-top: 5px;
+}

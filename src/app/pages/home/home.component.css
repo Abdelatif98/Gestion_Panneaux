@@ -1,0 +1,133 @@
+.card{
+  /*this is your grey background*/
+  background:white;
+  padding:30px;
+  border: 0px solid transparent;
+  border-radius: 10px 100px / 120px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 75px;
+}
+.card:hover{
+  border: 2px solid transparent ;
+
+}
+h2{
+
+  text-align: center;
+  font-family:arial ;
+  color: #888888;
+}
+.insidecard{
+  background-color:white;
+  font-family: Arial;
+  opacity: 1;
+  border-radius: 10px 100px / 120px;
+  padding:  10px;
+  color:#888888;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#icone1{
+  background-image: url("../../../assets/util-icons/list.png")  ;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+
+}
+#icone2{
+  background-image: url("../../../assets/util-icons/map.png")  ;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+
+}
+.smallcol{
+  padding: 40px 2px 40px 10px;
+}
+.bigcall{
+  padding: 15px;
+  font-family: "Malgun Gothic";
+}
+
+.myButton {
+  background:linear-gradient(to left,#5F4DEE, #460BA3) 0 0 no-repeat;
+
+  box-shadow:inset 0px 0px 0px 0px #3dc21b;
+  border-radius: 10px 100px / 120px;border:1px solid ;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:12px;
+  padding:20px 63px;
+  text-decoration:none;
+  margin-left: 55%;
+  margin-top: 10px;
+}
+.myButton:hover {
+  background:white;
+  color: #5F4DEE;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+#carouselcontainer{
+  width: 100%;
+  hight:40%;
+  padding: 0;
+}
+
+img{
+  width: 100%;
+  height: 80vh;
+  background: #f00;
+
+
+}
+.filter{
+
+
+}
+
+#cardcontainer{
+  margin-bottom: 70px;
+}
+
+.insidecard1{
+  background-color:white;
+  font-family: Roboto;
+  font-size: 30px;
+  opacity: 1;
+  border-radius: 10px 100px / 120px;
+  border: 5px dashed #400799;
+  padding:  10px;
+  color:#400799;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 100px;
+}
+
+.insidecard2{
+  background-color:white;
+  font-family: Roboto;
+  font-size: 30px;
+  opacity: 1;
+  border-radius: 10px 100px / 120px;
+  padding:  10px;
+  color:#400799;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 40px;
+  width: 300px;
+  border: 7px inset rgba(88,61,216,0.5);
+}
+
+.insidecard1:hover {
+  border: 7px solid #400799;
+}
+
+.insidecard2:hover {
+  border: 7px solid #5F4DEE;
+  margin-top: 15px;
+}

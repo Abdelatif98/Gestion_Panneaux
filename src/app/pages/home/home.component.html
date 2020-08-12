@@ -1,0 +1,64 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4"> </div>
+    <div class="col-md-4">
+      <div class="insidecard1 text-center">Total des panneaux <p class="text-center" style="color: rgba(64,7,153,0.82); font-size: 20px;">{{this.count}} panneaux</p></div>
+    </div>
+    <div class="col-md-4"> </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="insidecard2 text-center">Panneaux loués <p class="text-center" style="color: rgba(64,7,153,0.82); font-size: 20px;">{{this.countL}} panneaux</p></div>
+      </div>
+      <div class="col-md-4">
+        <div class="insidecard2 text-center">Panneaux pas loués <p class="text-center" style="color: rgba(64,7,153,0.82); font-size: 20px;">{{this.countP}} panneaux</p></div>
+      </div>
+      <div class="col-md-4">
+        <div class="insidecard2 text-center">Total des entreprises <p class="text-center" style="color: rgba(64,7,153,0.82); font-size: 20px;">{{this.countE}} entreprises</p></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="cardcontainer">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card" >
+        <div class="insidecard">
+
+          <h2>Gestion des entreprises </h2>
+          <div class="row">
+
+            <div class="col-md-4 smallcol" >
+              <div id="icone1">
+
+              </div>
+            </div>
+            <div class="col-md-8 bigcall">
+              Cet espace permet de gérer les comptes des entreprises (consultation, ajout est supression)
+            </div>
+          <a href="#" routerLink="entreprise" class="myButton">Gérer</a></div>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card" >
+        <div class="insidecard">
+
+          <h2>Gestion des panneaux </h2>
+          <div class="row">
+
+            <div class="col-md-4 smallcol" >
+              <div id="icone2">
+
+              </div>
+            </div>
+            <div class="col-md-8 bigcall">
+              Cet espace vous permet de consulter les panneaux et de gérer la location relatives à chaque panneau
+            </div>
+            <a href="#" routerLink="map" class="myButton">Gérer</a></div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
