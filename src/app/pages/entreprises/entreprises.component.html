@@ -10,8 +10,8 @@
     <th scope="row">{{el.patente}}</th>
     <td>{{el.nom}}</td>
     <td>
-      <button mat-fab color="danger" aria-label="Example icon button with a delete icon" (click)="this.deleteEntreprise(el.id)" mat-icon-button>
-        <mat-icon aria-hidden="false">delete</mat-icon>
+      <button (click)="this.deleteEntreprise(el.id)" mat-icon-button>
+        <img src="../../../assets/util-icons/delete.png" alt="delete">
       </button>
     </td>
   </tr>

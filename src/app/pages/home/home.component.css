@@ -28,20 +28,19 @@ h2{
 
 }
 #icone1{
-  background-image: url("../../../assets/util-icons/list.png")  ;
+  background-image: url("../../../assets/util-icons/list.png")!important ;
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  height: 100%;
+  height: 55px;
 
 }
 #icone2{
-  background-image: url("../../../assets/util-icons/map.png")  ;
+  background-image: url("../../../assets/util-icons/map.png")!important;
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  height: 100%;
-
+  height: 55px;
 }
 .smallcol{
   padding: 40px 2px 40px 10px;
@@ -53,7 +52,6 @@ h2{
 
 .myButton {
   background:linear-gradient(to left,#5F4DEE, #460BA3) 0 0 no-repeat;
-
   box-shadow:inset 0px 0px 0px 0px #3dc21b;
   border-radius: 10px 100px / 120px;border:1px solid ;
   display:inline-block;

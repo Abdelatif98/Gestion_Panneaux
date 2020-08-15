@@ -31,3 +31,8 @@ h3{
 hr{
   width: fit-content;
 }
+img{
+  width: 30px;
+  height: 30px;
+  margin-bottom: 25px;
+}
